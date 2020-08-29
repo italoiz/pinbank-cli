@@ -1,0 +1,20 @@
+{
+  "name": "pinbank-cli",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:italoiz/pinbank-cli.git",
+  "author": "Italo Izaac <italoiz.dev@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "pinbank": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "cli-spinner": "^0.2.10",
+    "commander": "^6.1.0",
+    "dotenv": "^8.2.0",
+    "env-var": "^6.3.0",
+    "lodash.get": "^4.4.2"
+  }
+}
